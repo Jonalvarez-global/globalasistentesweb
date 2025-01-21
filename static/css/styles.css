@@ -1,0 +1,39 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(72, 35, 232, 1) 64%, rgba(255, 156, 67, 1) 100%);
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+
+    color: #fff;
+
+    border: none;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
