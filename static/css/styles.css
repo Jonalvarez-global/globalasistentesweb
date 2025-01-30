@@ -1,39 +1,159 @@
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(72, 35, 232, 1) 64%, rgba(255, 156, 67, 1) 100%);
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
-.box {
+#menu_logo {
+    padding: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.btn-custom {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-
-    color: #fff;
-
-    border: none;
-
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-
+#menu {
+    display: flex;
+    gap: 4rem;
 }
 
-.btn-custom:hover {
-    transform: scale(1.05);
+#menu div {
+    margin: 6rem;
+}
 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+#menu div a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 
+.menu_item_2 {
+    padding-top: 2rem;
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    margin: 0 10px;
+    padding: 10px;
 }
 
 .card {
-    transition: transform 0.3s;
+    border: none;
+    margin: 0 15px;
+    transition: transform 0.2s;
+    background: white;
+    border-radius: 10px;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+.card-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
 
+.action-icon {
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    min-height: 250px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.add-card i {
+    font-size: 48px;
+    color: #6c757d;
+}
+
+.add-card:hover {
+    background-color: #f8f9fa;
+}
+
+.card-img-top {
+    padding: 2rem;
+    background: white;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: #333;
+}
+
+footer {
+    margin-top: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#poweredby {
+    color: #ada9a9;
+    margin-right: 1rem;
+}
+
+#ragnarok {
+    margin-bottom: 8px;
+    height: 30px;
+}
+
+.custom-prev-button,
+.custom-next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    color: #ada9a9;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-size: 24px;
+}
+
+.custom-prev-button i,
+.custom-next-button i {
+    font-size: 32px;
+}
+
+.custom-prev-button {
+    left: -60px;
+}
+
+.custom-next-button {
+    right: -60px;
 }

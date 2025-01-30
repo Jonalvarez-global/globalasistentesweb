@@ -128,6 +128,11 @@ def index():
 def indexView():
     return render_template('asistenteView.html')
 
+
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
 @app.route('/verificar/<string:palabra>', methods=['GET'])
 def verificar(palabra):
 

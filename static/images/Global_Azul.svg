@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="142.674"
+   height="141"
+   viewBox="0 0 142.674 141"
+   fill="none"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="Global_Azul.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86958115"
+     inkscape:cx="281.16985"
+     inkscape:cy="298.41953"
+     inkscape:window-width="1472"
+     inkscape:window-height="890"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7" />
+  <path
+     d="M 142.674,54.8679 H 75.6891 v 22.5922 h 40.8779 v 29.2479 h 26.107 z"
+     fill="#070423"
+     id="path6" />
+  <path
+     d="m 79.7334,115.792 c -31.9717,0 -52.0083,-18.9644 -52.0083,-45.3906 0,-26.2204 17.4035,-45.3861 47.5596,-45.3861 15.4889,0 28.6033,4.6531 37.7153,14.5169 L 135.235,25.5771 C 121.459,7.21339 97.593,0 75.4869,0 33.4087,0 0,26.2247 0,70.3971 0,110.542 31.3693,141 77.3068,141 c 4.5564,0 8.932,-0.21 13.1527,-0.622 v -25.182 c -3.5611,0.401 -7.1423,0.6 -10.7261,0.596 z"
+     fill="#070423"
+     id="path7" />
+</svg>
